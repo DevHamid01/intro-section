@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="features-div">
+            <li class="dropBtn" id="features">
+                Features <img src="images/icon-arrow-down.svg" alt="">
+                <!-- Drop down -->
+                <div class="dropdown">
+                    <ul class="dropdown-content">
+                        <li> <img src="images/icon-todo.svg" alt="">
+                            <p>Todo List</p>
+                        </li>
+                        <li><img src="images/icon-calendar.svg" alt="">
+                            <p>Calender</p>
+                        </li>
+                        <li> <img src="images/icon-reminders.svg" alt="">
+                            <p>Remainders</p>
+                        </li>
+                        <li><img src="images/icon-planning.svg" alt="">
+                            <p>Planning</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+            <li class="dropBtn">Company <img src="images/icon-arrow-down.svg" alt="">
+                <!-- drop down -->
+                <div class="dropdown-content">
+                    <ul id="dropdown">
+                        <li>History</li>
+                        <li>Our team</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>Careers</li>
+            <li>About</li>
+        </div>
+        <div class="login">
+            <button class="features">Login</button>
+            <button class="features">Register</button>
+        </div>
+    </header>
+    <!-- Hero section -->
+    <div class="body">
+        <div class="make-remote-work">
+            <h1 class="remote">
+                Make <br>remote work
+            </h1>
+            <p class="text">
+                Get your team in sync, no matter your location. <br> Streamline processes,
+                create team rituals, and watch productivity soar.
+            </p>
+            <button class="learn-more">
+                Learn more
+            </button>
+            <div class="logos">
+                <img src="images/client-databiz.svg" alt="client-databiz">
+                <img src="images/client-audiophile.svg" alt="client-audiophile">
+                <img src="images/client-meet.svg" alt="client-meet">
+                <img src="images/client-maker.svg" alt="client-maker">
+
+            </div>
+        </div>
+        <div class="picture">
+            <img src="images/image-hero-desktop.png" alt="image hero">
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Dev Hamid</a>.
+    </div>
+    <script src="./design/index.js"></script>
+</body>
+
+</html>
